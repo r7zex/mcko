@@ -6,7 +6,7 @@ if find == '1':
     act_size = size*8*1024**(measure-1)
     opacity = int(input('Кол-во БИТ, отведенных на степень прозрачности: '))
     i = act_size / (resolution_1*resolution_2) - opacity
-    answer = int(2**i)
+    answer = int(2**int(i))
     print(answer)
 else:
     i = int(input('На вход принимается?\nКол-во цветов(1)    Кол-во БИТ для цвета(2)'))
