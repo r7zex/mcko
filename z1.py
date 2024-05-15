@@ -63,7 +63,6 @@ def per_out(number, base):
         return ''.join(list(map(str, number_1))) + ',' + ''.join(list(map(str, number_2)))
 
 
-print('РЕШАТОР МЦКО ИСКЛЮЧИТЕЛЬНО ДЛЯ ШКОЛЫ 1636')
 amount = int(input('Введите количество чисел: '))
 numbers = {}
 
