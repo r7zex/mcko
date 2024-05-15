@@ -66,15 +66,13 @@ def per_out(number, base):
 print('РЕШАТОР МЦКО ИСКЛЮЧИТЕЛЬНО ДЛЯ ШКОЛЫ 1636')
 amount = int(input('Введите количество чисел: '))
 numbers = {}
-sings = []
+
 
 for _ in range(amount):
     number = input('Введите число: ')
     base = int(input('Введите основание числа: '))
     numbers[number] = base
-for _ in range(amount-1):
-    sign = input('Введите знаки соответственно по-одному: ')
-    sings.append(sign)
+sings = input('Введите знаки соответственно разделяя их пробелом: ').split()
 output_base = int(input('Введите конечную систему счисления: '))
 place = 0
 answer = ''
